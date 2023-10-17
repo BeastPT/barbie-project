@@ -10,16 +10,13 @@ public class Play extends Buttons
 {
    public Play()
     {  
-        GreenfootImage playButton = new GreenfootImage(200,100);
-        Font adjustedFont = new Font(true,false,50);
-        playButton.setFont(adjustedFont);
-        playButton.setColor(Color.WHITE);
-        playButton.drawString("Play",0,50);
-        setImage(playButton);
+        GreenfootImage imagem1= new GreenfootImage("ButtonPlay.png");
+        setImage(imagem1);
+        
     }
     public void act()
     {
         checkMouse();
-        checkClick(new MyWorld());
+        checkClick(new Maze());
     }
 }

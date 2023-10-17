@@ -27,16 +27,8 @@ public class InitialWorld extends World
         addObject(logoPic,getWidth()/2, 100);
 
         Play play = new Play();
-        addObject(play,606,282);
-        Instructions instructions = new Instructions();
-        addObject(instructions,579,350);
-        instructions.setLocation(564,410);
-        Credits credits = new Credits();
-        addObject(credits,564,410);
-        Exit exit = new Exit();
-        addObject(exit,559,467);
-        instructions.setLocation(584,342);
-        instructions.setLocation(584,342);
-        play.setLocation(528,282);
+        addObject(play,600,250);
+
+
     }
 }
