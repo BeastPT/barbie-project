@@ -2,3 +2,4 @@
 *.class
 doc/logfile.txt
 *.class
+*.ctxt
