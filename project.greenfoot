@@ -1,12 +1,15 @@
 #Greenfoot project file
 class.Maze.image=weave.jpg
 class.WallBlock.image=Wall.jpg
+dependency1.from=Maze
+dependency1.to=WallBlock
+dependency1.type=UsesDependency
 editor.fx.0.height=737
 editor.fx.0.width=814
 editor.fx.0.x=360
 editor.fx.0.y=26
 height=830
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=4
 project.charset=UTF-8
 publish.hasSource=false
@@ -52,6 +55,6 @@ target4.x=0
 target4.y=0
 version=3.0.0
 width=1550
-world.lastInstantiated=MyWorld
+world.lastInstantiated=Maze
 xPosition=0
 yPosition=0
