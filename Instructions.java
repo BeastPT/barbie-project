@@ -8,14 +8,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Instructions extends Buttons
 {
-   public Instructions()
+    public Instructions()
     {  
-        GreenfootImage playButton = new GreenfootImage(200,200);
-        Font adjustedFont = new Font(true,false,50);
-        playButton.setFont(adjustedFont);
-        playButton.setColor(Color.WHITE);
-        playButton.drawString("Instructions",0,100);
-        setImage(playButton);
+        GreenfootImage imagem3= new GreenfootImage("InstrutionsButton.png");
+        setImage(imagem3);
     }
     public void act()
     {

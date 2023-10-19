@@ -8,9 +8,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Play extends Buttons
 {
+    //private GreenfootSound soundtrack = new GreenfootSound("Barbie.mp3");
    public Play()
     {  
-        GreenfootImage imagem1= new GreenfootImage("ButtonPlay.png");
+        GreenfootImage imagem1= new GreenfootImage("PlayButton.png");
         setImage(imagem1);
         
     }

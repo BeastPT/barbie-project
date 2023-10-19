@@ -10,6 +10,7 @@ public class Buttons extends Actor
 {
     private boolean mouseEmCima = false;
     private static int MAX_TRANS = 225;
+    GreenfootSound som = new GreenfootSound("interface.mp3");
     
     public void checkMouse()
     {
@@ -30,6 +31,7 @@ public class Buttons extends Actor
     { 
         if(Greenfoot.mouseClicked(this))
         {
+            som.play();
             Greenfoot.setWorld(world);
         }
     

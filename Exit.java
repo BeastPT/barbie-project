@@ -9,13 +9,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Exit extends Buttons
 {
     public Exit()
-    {
-        GreenfootImage myTitle = new GreenfootImage(100,60);
-        Font adjustedFont = new Font(true, false, 40);
-        myTitle.setFont(adjustedFont);
-        myTitle.setColor(Color.WHITE);
-        myTitle.drawString("Exit",0,50);
-        setImage(myTitle);
+    {  
+        GreenfootImage imagem2= new GreenfootImage("PauseButton.png");
+        setImage(imagem2);
     }
     public void act()
     {
