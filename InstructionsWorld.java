@@ -33,7 +33,7 @@ public class InstructionsWorld extends World
         Picture logoPic2 = new Picture(logo2);
         addObject(logoPic2,1050, 270);
         
-        GreenfootImage logo3 = new GreenfootImage("BarbieLogo.png");
+        GreenfootImage logo3 = new GreenfootImage("Barbielogo.png");
         Picture logoPic3 = new Picture(logo3);
         addObject(logoPic3,150, 270);
     }
