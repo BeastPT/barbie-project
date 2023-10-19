@@ -31,6 +31,7 @@ public class Buttons extends Actor
     { 
         if(Greenfoot.mouseClicked(this))
         {
+            som.setVolume(20);
             som.play();
             Greenfoot.setWorld(world);
         }
