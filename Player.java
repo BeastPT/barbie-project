@@ -15,11 +15,13 @@ public class Player extends Actor
     private String right;
     private final int DELTA = 2;
     
-    public Player(String up, String down, String left, String right){
+    public Player(String up, String down, String left, String right, String imageUrl){
         this.up = up;
         this.down = down;
         this.left = left;
         this.right = right;
+        
+        setImage(new GreenfootImage(imageUrl));
     }
     
     public void act()

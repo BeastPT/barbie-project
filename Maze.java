@@ -1,18 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Maze here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Maze extends World
 {
-
-    /**
-     * Constructor for objects of class Maze.
-     * 
-     */
     
     private int mazeMapVersion;
     static final int MAP_DOORS = 2;
@@ -30,10 +19,10 @@ public class Maze extends World
     }
     
     private void setupPlayers(){
-        Player player1 = new Player("w", "s", "a", "d");
+        Player player1 = new Player("w", "s", "a", "d", "BarbieWalking1.png");
         addObject(player1, 25, 25);
         
-        Player player2 = new Player("up", "down", "left", "right");
+        Player player2 = new Player("up", "down", "left", "right", "KenWalking1.png");
         addObject(player2, 50*3+25, 50*12+25);
     }
     

@@ -1,11 +1,11 @@
 #Greenfoot project file
-class.Door.image=blue-draught.png
+class.Door.image=rock.png
 class.InitialWorld.image=background.menu.jpg
 class.InstructionsWorld.image=Background.intstructions.jpg
-class.Maze.image=weave.jpg
+class.Maze.image=MazeBackground.png
 class.Player.image=BarbieWalking1.png
-class.PressurePlate.image=blue-draught-king.png
-class.WallBlock.image=Wall.jpg
+class.PressurePlate.image=PressurePlate.png
+class.WallBlock.image=BushWall2.png
 dependency1.from=InstructionsWorld
 dependency1.to=Menu
 dependency1.type=UsesDependency
@@ -202,6 +202,6 @@ target9.x=0
 target9.y=0
 version=3.0.0
 width=1936
-world.lastInstantiated=InitialWorld
+world.lastInstantiated=Maze
 xPosition=0
 yPosition=32

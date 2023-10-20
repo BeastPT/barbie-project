@@ -1,22 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Door here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Door extends Objects
 {
-    /**
-     * Act - do whatever the Door wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
     public boolean open = false;
     private boolean opening = false;
     private boolean closing = false;
     private GreenfootImage image;
-    private final int DELTA_TRANSPARENCY = 5; // multiplos de 100
+    private final int DELTA_TRANSPARENCY = 5; // multiplos de 255
     
     public Door() {
         super();
@@ -46,7 +36,7 @@ public class Door extends Objects
     private void removeTransparency() {
         if (opening) {
             int transparency = image.getTransparency();
-            if (transparency > 0+DELTA_TRANSPARENCY)
+            if (transparency > 0)
                 image.setTransparency(transparency-DELTA_TRANSPARENCY);
             else {
                 opening = false;
