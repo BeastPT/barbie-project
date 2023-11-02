@@ -9,13 +9,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Instructions extends Buttons
 {
     public Instructions()
-    {  
+    {
         GreenfootImage imagem3= new GreenfootImage("InstrutionsButton.png");
         setImage(imagem3);
     }
     public void act()
     {
         checkMouse();
-        checkClick(new InstructionsWorld());
+        checkClick(new Lobby());
     }
 }

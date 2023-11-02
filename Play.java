@@ -10,7 +10,8 @@ public class Play extends Buttons
 {
     //private GreenfootSound soundtrack = new GreenfootSound("Barbie.mp3");
    public Play()
-    {  
+    {
+        super();
         GreenfootImage imagem1= new GreenfootImage("PlayButton.png");
         setImage(imagem1);
         

@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class InitialWorld extends World
 {
-    private GreenfootSound soundtrack = new GreenfootSound("Barbie.mp3");
     /**
      * Constructor for objects of class InitialWorld.
      * 
@@ -22,13 +21,15 @@ public class InitialWorld extends World
     
     private void prepare()
     {
+        GreenfootImage image = new GreenfootImage("background.menu.jpg");
+        
         GreenfootImage logo = new GreenfootImage("logoBarbieKeN.png");
-        Picture logoPic = new Picture(logo);
-        addObject(logoPic,getWidth()/2, 139);
-
+        image.drawImage(logo, getWidth()/2-logo.getWidth()/2, 10);
+        
         GreenfootImage barbieKen = new GreenfootImage("barbie&kenMenu.png");
-        Picture barbieKenPic = new Picture(barbieKen);
-        addObject(barbieKenPic,1000, 515);
+        image.drawImage(barbieKen, 1000-barbieKen.getWidth()/2, 515-barbieKen.getHeight()/2);
+        
+        setBackground(image);
         
         Play play = new Play();
         addObject(play,600,300);
@@ -40,15 +41,5 @@ public class InitialWorld extends World
         addObject(instructions,600,510);
 
     }
-
-    public void started()
-    {
-       //soundtrack.play();
-    }
-    public void stopped()
-    {
-        soundtrack.stop();
-    }
-
 }
 

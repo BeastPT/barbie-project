@@ -10,7 +10,8 @@ public class Menu extends Buttons
 {   
     
    public Menu()
-    {  
+    {
+        super();
         GreenfootImage imagem4= new GreenfootImage("BackToMenu.png");
         setImage(imagem4);
         

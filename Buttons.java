@@ -15,18 +15,14 @@ public class Buttons extends Actor
     public void checkMouse()
     {
         if(Greenfoot.mouseMoved(null))
-        {
             mouseEmCima = Greenfoot.mouseMoved(this);
-        }
+        
         if(mouseEmCima)
-        {
             adjTrans(MAX_TRANS/2);
-        }
         else
-        {
-        adjTrans(MAX_TRANS);
-        }
+            adjTrans(MAX_TRANS);
     }
+    
     public void checkClick(World world)
     { 
         if(Greenfoot.mouseClicked(this))
@@ -41,6 +37,6 @@ public class Buttons extends Actor
     {
         GreenfootImage tempImage = getImage();
         tempImage.setTransparency(adjust);
-        setImage(tempImage);
+        //setImage(tempImage);
     }
 }

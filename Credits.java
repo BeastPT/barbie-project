@@ -10,6 +10,7 @@ public class Credits extends Buttons
 {
    public Credits()
     {  
+        super();
         GreenfootImage playButton = new GreenfootImage(200,100);
         Font adjustedFont = new Font(true,false,50);
         playButton.setFont(adjustedFont);

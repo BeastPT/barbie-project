@@ -1,6 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class WallBlock extends Actor
+public class NotCollisionTurret extends Actor
 {
     public void act()
     {
